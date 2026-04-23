@@ -187,7 +187,7 @@ export default function ComingSoon() {
           <SocialLink href="https://www.linkedin.com/company/atlasadvisory-ae/">
             <IconLinkedIn />
           </SocialLink>
-          <SocialLink href="https://www.facebook.com/atlasadvisory.ae">
+          <SocialLink href="https://www.facebook.com/share/14Yr31qstF7/?mibextid=wwXIfr">
             <IconFacebook />
           </SocialLink>
           <div className="w-px h-5 bg-white/20 mx-1" />

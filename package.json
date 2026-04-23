@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node -e \"const fs=require('fs');try{fs.rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "clean": "node -e \"const fs=require('fs');try{fs.rmSync('.next',{recursive:true,force:true})}catch(e){}\""
   },
   "dependencies": {
     "next": "16.2.4",
